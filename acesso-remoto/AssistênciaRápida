@@ -1,1 +1,53 @@
+# 📘 Guia Rápido – Assistência Rápida (Quick Assist) no Windows
 
+A **Assistência Rápida** é uma ferramenta nativa do Windows que permite que um técnico de suporte acesse remotamente o computador de um usuário, com a permissão dele, sem necessidade de instalar programas externos.
+
+---
+
+## 🚀 Como abrir a Assistência Rápida
+1. Pressione `Win + S` e digite **Assistência Rápida**.  
+2. Clique no aplicativo para abrir.  
+
+---
+
+## 🖥️ Para o **Técnico de Suporte**
+1. Clique em **Ajudar outra pessoa**.  
+2. Faça login com uma conta Microsoft.  
+3. Será gerado um **código de segurança de 6 dígitos**.  
+4. Envie esse código ao usuário que precisa de ajuda.  
+
+---
+
+## 👤 Para o **Usuário que precisa de ajuda**
+1. Abra a Assistência Rápida no computador.  
+2. Clique em **Receber assistência**.  
+3. Digite o **código de 6 dígitos** fornecido pelo técnico.  
+4. Escolha **Permitir** quando aparecer o pedido de acesso.  
+
+---
+
+## ⚙️ Modos de Acesso
+- 🔎 **Exibir tela** → O técnico pode apenas visualizar.  
+- 🖱️ **Assumir controle total** → O técnico pode controlar teclado e mouse do usuário.  
+
+---
+
+## 🔐 Boas práticas de segurança
+- **Nunca aceite códigos de desconhecidos**.  
+- **Sempre confirme a identidade** do técnico antes de liberar acesso.  
+- **Encerrar a sessão** ao final do atendimento.  
+- Lembre-se: o código expira em alguns minutos, evitando acessos indevidos.  
+
+---
+
+## 🚩 Problemas comuns
+- ❌ **Código não funciona** → Verifique se ainda está dentro do prazo de validade.  
+- 🌐 **Conexão falha** → Checar internet em ambos os lados.  
+- 🔒 **Bloqueio por políticas** → Em ambientes corporativos, a Assistência pode estar desativada pelo administrador.  
+
+---
+
+## ✅ Dicas rápidas para o dia a dia
+- Sempre combine por telefone ou chat antes de compartilhar o código.  
+- Use **Assumir controle total** apenas quando necessário.  
+- Encerrar a sessão ao terminar garante segurança e privacidade.  

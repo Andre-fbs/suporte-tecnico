@@ -1,12 +1,34 @@
-# Meus Estudos 👨‍💻
+# Curso de Suporte Técnico na Prática 🖥️🔧
 
-Este repositório é um registro do que estou aprendendo em tecnologia.  
-Aqui eu guardo anotações, exercícios e recursos que encontro no caminho.  
+Bem-vindo(a) ao repositório de **Suporte Técnico na Prática**!  
+O objetivo é servir como um **guia prático de estudo e consulta rápida**.
 
-## Estrutura
-- 📒 **anotações/** → Resumos do que aprendi em cada tema.
-- 🚀 **projetos/** → Exercícios e pequenos projetos que desenvolvi.
-- 📚 **recursos/** → Links, livros e materiais de apoio.
+---
 
-## Objetivo
--Organizar meu aprendizado e ter um histórico da minha evolução.
+## 📚 Conteúdo
+
+### 🔹 Fundamentos
+- Acesso Remoto
+- MS DOS
+- Segurança
+- Backups
+- Melhoria de Desempenho
+
+### 🔹 Ferramentas e Serviços
+- Correio Eletrônico
+- Impressora
+- Redes
+- Active Directory (AD)
+
+### 🔹 Operações Avançadas
+- Clonar HD
+- Criar Máquina Virtual
+
+### 🔹 Outros Tópicos
+- Novas práticas e tecnologias que podem ser adicionadas ao longo do tempo.
+
+---
+
+## 🎯 Objetivo
+- Criar uma base prática de conhecimento para suporte técnico.  
+- Organizar tutoriais e procedimentos úteis.  

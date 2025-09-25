@@ -1,1 +1,49 @@
+## 🚀 Instalação
+
+1. Baixe o AnyDesk no site oficial: [https://anydesk.com](https://anydesk.com)
+2. Instale no computador (Windows, Linux, macOS) ou celular (Android, iOS).
+3. Abra o programa — será gerado um **ID de acesso** (número único do dispositivo).
+
+---
+
+## 🔑 Conexão Remota
+
+* **Para acessar outro PC**:
+
+  1. Peça o **ID do AnyDesk** do cliente/usuário.
+  2. Digite o ID no campo *"Nova Conexão"*.
+  3. Clique em **Conectar**.
+  4. O usuário do outro lado deve **aceitar a conexão**.
+
+* **Para receber suporte**:
+
+  1. Abra o AnyDesk e copie seu **ID**.
+  2. Envie o ID ao técnico de suporte.
+  3. Aceite a solicitação de conexão quando aparecer.
+
+---
+
+## ⚙️ Funções Essenciais
+
+* 🖱️ **Controle Remoto** – movimentar mouse e teclado do outro PC.
+* 📂 **Transferência de Arquivos** – arrastar e soltar arquivos entre os PCs.
+* 💬 **Chat** – conversar diretamente pelo AnyDesk durante o atendimento.
+* 🔒 **Permissões** – é possível liberar ou bloquear câmera, microfone, área de transferência, etc.
+
+---
+
+## 🔐 Boas Práticas de Segurança
+
+* **Nunca compartilhe seu ID com desconhecidos**.
+* **Sempre confirme a identidade do técnico** antes de permitir o acesso.
+* **Bloqueie acesso automático** se não for necessário.
+* **Use senha forte** caso configure acesso sem supervisão.
+
+---
+
+## 🚩 Resolução de Problemas Comuns
+
+* ❌ **Conexão não funciona** → Verifique internet dos dois lados.
+* ⚠️ **Acesso negado** → O usuário precisa aceitar a solicitação.
+* 🔄 **Conexão instável** → Reduza a qualidade de imagem em *Configurações > Vídeo*.
 

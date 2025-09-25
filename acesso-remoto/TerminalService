@@ -1,1 +1,54 @@
+## 🚀 Como acessar
+1. Pressione `Win + R`, digite: mstsc
+e pressione **Enter**.
 
+---
+
+2. Na janela **Conexão de Área de Trabalho Remota**, insira:
+- **IP ou nome do computador** que deseja acessar.
+- **Usuário e senha** (deve ter permissão para RDP).
+3. Clique em **Conectar**.  
+
+---
+
+## ⚙️ Configurações úteis
+- **Mostrar opções** → permite salvar credenciais, ajustar resolução e redirecionar recursos (impressora, área de transferência, discos locais).  
+- **Ajustar desempenho**:
+- Reduzir efeitos visuais para conexões lentas.
+- Desativar temas e animações melhora a fluidez.  
+- **Redirecionamento de dispositivos**:
+- Ative/desative uso de impressoras locais, drives, portas e área de transferência.  
+
+---
+
+## 🔑 Permissões e pré-requisitos
+- O recurso deve estar ativado no PC remoto:  
+- Vá em **Configurações > Sistema > Área de Trabalho Remota** → Ativar.  
+- Ou em **Painel de Controle > Sistema > Configurações Remotas** → marcar **Permitir conexões remotas**.  
+- O usuário deve ser membro do grupo **Usuários da Área de Trabalho Remota**.  
+- O firewall do Windows deve permitir a porta **3389/TCP**.  
+
+---
+
+## 🔐 Boas práticas de segurança
+- Alterar a **porta padrão (3389)** em servidores expostos à internet.  
+- Usar **VPN** para acesso remoto seguro.  
+- Habilitar **Autenticação em Nível de Rede (NLA)**.  
+- Restringir conexões a IPs confiáveis.  
+- Monitorar tentativas de login suspeitas em logs do sistema.  
+
+---
+
+## 🚩 Problemas comuns
+- ❌ **Não conecta** → Verificar firewall, porta 3389 e se o serviço **Remote Desktop Services** está rodando.  
+- 🔒 **Usuário sem permissão** → Adicionar no grupo *Remote Desktop Users*.  
+- ⚡ **Lentidão** → Ajustar qualidade de exibição e desativar efeitos visuais.  
+- 🌐 **Rede externa** → Garantir redirecionamento de porta (NAT) no roteador ou usar VPN.  
+
+---
+
+## ✅ Dicas rápidas para o dia a dia
+- Usar `mstsc /admin` para conectar como administrador de sessão.  
+- Salvar conexões frequentes em arquivos `.rdp` para acesso rápido.  
+- Em servidores, usar **Gerenciador de Serviços de Área de Trabalho Remota** para controlar sessões.  
+- Finalizar sessões inativas evita consumo desnecessário de recursos.  

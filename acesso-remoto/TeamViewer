@@ -1,1 +1,66 @@
+## 🚀 Instalação
+1. Baixe o TeamViewer no site oficial: `https://teamviewer.com` (escolha a versão para seu sistema: Windows, macOS, Linux, Android, iOS).  
+2. Execute o instalador e escolha:
+   - **Instalar** (para uso contínuo no PC).
+   - **Executar sem instalar** (para suporte pontual).
+3. Ao abrir, o TeamViewer mostra um **ID** e **Senha** temporária do dispositivo (ou configurações de acesso pessoal se você ativou uma senha fixa).
 
+---
+
+## 🔑 Como conectar
+- **Acessar outro computador (modo rápido):**
+  1. Peça o **ID** do cliente.
+  2. No seu TeamViewer, em **Control Remote Computer**, insira o ID e clique em **Connect**.
+  3. Quando solicitado, insira a **senha** fornecida pelo usuário.
+  4. O usuário pode aceitar/permissões conforme a configuração.
+
+- **Receber suporte:**
+  1. Abra o TeamViewer e informe seu **ID** e **Senha** ao técnico.
+  2. Aceite a conexão quando ela aparecer (se aplicável).
+
+- **Acesso sem supervisão:**
+  - Configure **Acesso Fácil / Password permanente** e vincule o dispositivo à sua conta TeamViewer para permitir acesso sem a intervenção do usuário.
+
+---
+
+## ⚙️ Funções essenciais
+- 🖱️ **Controle remoto** (mouse/teclado do computador remoto).  
+- 🖥️ **Visualização de tela** (somente ver).  
+- 📂 **Transferência de arquivos** (via painel ou arrastar e soltar).  
+- 💬 **Chat** e **Notas** durante a sessão.  
+- 🔊 **Áudio e vídeo** (se ativados) — ideal para suporte com explicações.  
+- 📅 **Reuniões e suporte remoto agendado** (TeamViewer Meeting).
+
+---
+
+## 🔐 Boas práticas de segurança
+- Compartilhe **ID e senha apenas com pessoas confiáveis**.  
+- **Ative autenticação de dois fatores** na sua conta TeamViewer.  
+- Use **senha pessoal forte** e evite deixar senha permanente exposta sem necessidade.  
+- Habilite **whitelist** (lista de dispositivos permitidos) para acesso sem supervisão quando aplicável.  
+- Revise as **permissões** durante a sessão (área de transferência, som, gravação de sessão).
+
+---
+
+## 🚩 Solução de problemas comuns
+- ❌ **Conexão falha / sem resposta** → Verifique internet nos dois lados; tente reiniciar o TeamViewer.  
+- 🔒 **Senha inválida** → Peça ao usuário para reiniciar o TeamViewer para gerar nova senha, ou confirme senha pessoal.  
+- ⚠️ **Baixa qualidade / atraso** → Reduza qualidade de visualização em **Extras > Options > Remote Control > Quality** ou ative o modo de menor largura de banda.  
+- 🖨️ **Impressora remota não funciona** → Use transferência de arquivos ou verifique drivers/permissões de impressão remota.  
+- 🔄 **Versões incompatíveis** → Atualize TeamViewer para a versão mais recente em ambos os computadores.
+
+---
+
+## ✅ Dicas rápidas para o dia a dia
+- Peça ao usuário para **fechar programas sensíveis** antes do acesso (ex.: bancos, documentos com senha).  
+- Use **modo janela** ou tela cheia conforme necessidade — tela cheia facilita o trabalho remoto.  
+- Grave sessões apenas se houver autorização (útil para auditoria e treinamento).  
+- Mantenha sua conta TeamViewer com **senha única e 2FA**.  
+- Tenha links rápidos para download do TeamViewer prontos para enviar ao cliente.
+
+---
+
+## Referência rápida (comandos úteis)
+- **Gerar nova senha temporária**: fechar e abrir o TeamViewer ou clicar em *Reset Password* (quando disponível).  
+- **Ver log de conexões**: Extras → Open log files / Management Console (para contas empresariais).  
+- **Compartilhar tela sem controlar**: pedir permissão de visualização apenas

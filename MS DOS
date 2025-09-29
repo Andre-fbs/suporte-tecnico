@@ -1,1 +1,114 @@
+# 🖥️ Guia Rápido – CMD (Prompt de Comando) — Comandos Essenciais
 
+> ✳️ Observação: alguns comandos exigem executar o Prompt como **Administrador**.  
+> Abra o Prompt como admin: Iniciar → digite `cmd` → clique com o botão direito → **Executar como administrador**.  
+> Ou use `Win + X` → **Windows Terminal (Admin)**.
+
+---
+
+## systeminfo
+Exibe informações detalhadas do sistema: versão do Windows, processador, memória física, hotfixes instalados, data de instalação etc.
+
+---
+
+## ipconfig
+Mostra informações de rede das interfaces (IP, gateway, DNS, MAC etc).
+
+**Comandos úteis:**
+- `ipconfig` — mostra IPs básicos.  
+- `ipconfig /all` — informações completas (DHCP, DNS, MAC).  
+- `ipconfig /release` — libera o IP (DHCP).  
+- `ipconfig /renew` — renova o IP (DHCP).  
+- `ipconfig /flushdns` — limpa o cache DNS local.
+
+**Quando usar:** verificar endereço IP, gateway, resolver problemas de DNS ou renovar endereço DHCP.
+
+---
+
+## tasklist
+Lista processos em execução no sistema (equivalente em texto ao Gerenciador de Tarefas).
+
+**Uso:** `tasklist`  
+**Filtrar por processo:** `tasklist /FI "IMAGENAME eq nome.exe"`  
+**Quando usar:** confirmar se um processo está rodando antes de finalizar ou reiniciar serviços.
+
+---
+
+## taskkill
+Finaliza processos. Use com cautela — encerrar processos críticos pode travar o sistema.
+
+**Sintaxe comum:** `taskkill /f /im "nome-do-processo.exe"`  
+- `/f` força o encerramento.  
+- `/im` indica o nome do executável.
+
+**Quando usar:** forçar fechamento de programas travados.
+
+---
+
+## cls
+Limpa a tela do Prompt de Comando (apenas visual).
+
+---
+
+## shutdown
+Comandos para desligar, reiniciar ou fazer logoff.
+
+**Exemplos:**
+- `shutdown /s /t 0` — desliga imediatamente.  
+- `shutdown /r /t 0` — reinicia imediatamente.  
+- `shutdown /l` — faz logoff do usuário atual.  
+- `shutdown /a` — aborta desligamento agendado (se ainda possível).  
+- `shutdown /s /t 60` — desliga em 60 segundos.
+
+**Quando usar:** automatizar desligamento/reinício em scripts de manutenção.
+
+---
+
+## ping
+Testa conectividade com outro host. Indica perda de pacotes e latência (ms).
+
+**Uso:** `ping exemplo.com` ou `ping 8.8.8.8`  
+**Interpretação:** respostas mostram latência; `Request timed out`/`Destination host unreachable` indicam problemas de rota/firewall.
+
+---
+
+## tracert
+Rastreia a rota até um destino mostrando os saltos (hops) entre você e o host — muito usado por redes e segurança.
+
+**Uso:** `tracert exemplo.com`  
+**Quando usar:** identificar onde um pacote está sendo perdido ou onde há alta latência entre saltos.
+
+---
+
+## chkdsk
+Verifica integridade do sistema de arquivos e discos; pode corrigir erros.
+
+**Comandos:**
+- `chkdsk C:` — verifica o disco C:.  
+- `chkdsk C: /f` — tenta corrigir erros encontrados (pode pedir reinício).
+
+**Avisos:** `chkdsk /f` pode exigir desmontar o volume; em discos do sistema normalmente executa na próxima inicialização. Faça backup antes em discos com problemas.
+
+---
+
+## Boas práticas e avisos
+- **Executar como Administrador** quando usar `chkdsk`, `taskkill`, `shutdown` ou outros comandos que alteram o sistema.  
+- **Tenha backups** antes de operações de disco (`chkdsk /f`) ou procedimentos invasivos.  
+- Use `taskkill` com cautela para evitar encerrar processos essenciais do sistema.  
+- Combine `ipconfig`, `ping` e `tracert` para um diagnóstico de rede mais completo.  
+- Documente os passos quando realizar procedimentos em máquinas de terceiros (útil para auditoria).
+
+---
+
+## Resumo rápido (cheat-sheet)
+- `systeminfo` → informações do sistema  
+- `ipconfig` → IP / DNS / gateway (/all, /release, /renew, /flushdns)  
+- `tasklist` → lista de processos  
+- `taskkill /f /im "app.exe"` → encerra processo  
+- `cls` → limpa a tela  
+- `shutdown` → desligar/reiniciar/logoff/abortar  
+- `ping <host>` → verifica conectividade  
+- `tracert <host>` → rastreia rota até o host  
+- `chkdsk` / `chkdsk /f` → checa e corrige sistema de arquivos
+
+---

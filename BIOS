@@ -1,1 +1,65 @@
+# Guia Rápido – BIOS
 
+## O que é BIOS?
+
+A **BIOS (Basic Input/Output System)** é um software básico armazenado na placa-mãe, responsável por inicializar o computador e carregar o sistema operacional.
+Ela faz a checagem do hardware (POST) e define parâmetros essenciais para o funcionamento da máquina.
+
+---
+
+## Para que serve?
+
+* Inicializar o sistema e carregar o sistema operacional.
+* Configurar componentes de hardware (processador, memória, armazenamento, etc.).
+* Definir ordem de boot (HD, SSD, Pendrive, Rede, etc.).
+* Ativar ou desativar recursos como virtualização, placas integradas, rede, entre outros.
+
+---
+
+## Como acessar a BIOS
+
+1. Reinicie o computador.
+2. Durante a inicialização, pressione a tecla indicada na tela (normalmente **DEL**, **F2**, **F10** ou **ESC**).
+3. Navegue pelo menu usando as setas do teclado.
+
+---
+
+## Problemas comuns e soluções
+
+### 1. Bateria da BIOS fraca
+
+* Sintomas: data e hora sempre erradas ao ligar o PC.
+* Causa: a bateria CMOS (tipo CR2032) não está mais segurando carga.
+* Solução: substituir a bateria por uma nova.
+
+---
+
+### 2. Wireless LAN Disabled
+
+* Erro comum em notebooks quando a placa de rede Wi-Fi é desativada na BIOS.
+* Solução: acessar a BIOS e habilitar novamente o **Wireless LAN**.
+
+---
+
+### 3. Virtual Technology (VT-x / AMD-V)
+
+* Recurso que permite usar máquinas virtuais com melhor desempenho.
+* Pode ser ativado/desativado na BIOS.
+* Necessário para softwares como VirtualBox, VMware e emuladores.
+
+---
+
+### 4. Boot Mode
+
+* Define como o sistema será carregado:
+
+  * **Legacy**: compatibilidade com sistemas antigos.
+  * **UEFI**: mais moderno, rápido e seguro.
+* Importante escolher corretamente de acordo com a instalação do sistema operacional.
+
+---
+
+### 5. USB Boot
+
+* Permite inicializar o computador a partir de um pendrive (ex.: instalação do Windows ou Linux).
+* Deve estar habilitado na BIOS e o **pendrive configurado como prioridade de boot**.

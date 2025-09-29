@@ -26,9 +26,3 @@ O objetivo é servir como um **guia prático de estudo e consulta rápida**.
 
 ### 🔹 Outros Tópicos
 - Novas práticas e tecnologias que podem ser adicionadas ao longo do tempo.
-
----
-
-## 🎯 Objetivo
-- Criar uma base prática de conhecimento para suporte técnico.  
-- Organizar tutoriais e procedimentos úteis.  

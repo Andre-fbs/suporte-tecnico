@@ -1,1 +1,59 @@
+O acesso por diretório permite entrar em pastas ou partições de outro computador dentro da rede local, sem precisar de softwares adicionais, apenas usando o Windows Explorer ou o Executar.
 
+---
+
+## Passo 1 – Descobrir o IP ou Nome do Computador
+
+* Utilize o aplicativo **IP Scanner** para identificar o IP ou o nome da máquina na rede.
+* Anote o endereço exibido (exemplo: 192.168.0.10 ou PC-Suporte).
+
+---
+
+## Passo 2 – Acessar pelo Executar
+
+* Pressione **Windows + R** para abrir o Executar.
+* Digite uma das opções:
+
+Passo 2 – Acessar pelo Executar ou pela barra do Explorer
+
+* Digite `\\nome-do-pc`
+
+  * Exemplo: `\\PC-Suporte`
+  * Abre a lista de pastas e compartilhamentos disponíveis no computador remoto.
+* Digite `\\IP-da-máquina`
+
+  * Exemplo: `\\192.168.0.10`
+  * Mesma ideia: abre os compartilhamentos do host identificado pelo IP.
+* Digite `\\IP-da-máquina\NOME_DA_PASTA`
+
+  * Exemplo: `\\192.168.0.10\Compartilhado`
+  * Acessa diretamente uma pasta compartilhada específica.
+* Digite `\\IP-da-máquina\c$` ou `\\nome-do-pc\c$`
+
+  * Exemplo: `\\192.168.0.10\c$`
+  * Acessa a partição C: inteira via share administrativo (sufixo `$`). Requer credenciais de administrador no computador remoto.
+* Para outras partições, use a letra correspondente com `$` (por exemplo `\\192.168.0.10\d$` para D:).
+
+Observações rápidas:
+
+* Se aparecer prompt de usuário/senha, informe credenciais com permissão (pode ser `DOMÍNIO\nome` ou `nome-do-usuário`).
+* Acessos com sufixo `$` normalmente são permitidos apenas para administradores.
+* Se não abrir, verifique: compartilhamento habilitado, firewall, e se os serviços de rede estão ativos no host remoto.
+
+
+Isso abrirá as pastas e compartilhamentos disponíveis no computador remoto.
+
+---
+
+## Passo 3 – Acessar uma partição inteira
+
+* Também é possível acessar diretamente uma partição usando o **$** no final.
+* Exemplo: \192.168.0.10\c$
+* Isso abrirá a partição C: do computador remoto (necessário permissão de administrador).
+
+---
+
+## Observação
+
+* Esse método depende de permissões de rede e usuário configuradas no computador de destino.
+* Em redes corporativas, geralmente só administradores têm acesso às partições usando o sufixo **$**.

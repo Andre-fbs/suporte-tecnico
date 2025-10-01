@@ -1,1 +1,26 @@
+## Copiar a pasta do usuário
 
+* Local: `C:\Usuários\NOME_DO_USUÁRIO`
+* O que contém:
+
+  * Área de Trabalho
+  * Documentos
+  * Downloads
+  * Imagens, Vídeos, Música
+  * Pastas e arquivos pessoais do usuário
+
+---
+
+## Limitações
+
+* **Não inclui programas instalados** (eles não funcionam só copiando).
+* **Não guarda configurações completas** do Windows (rede, impressoras, drivers etc.).
+* Pode deixar de fora **pastas ocultas** (como `AppData`), que guardam dados importantes de alguns aplicativos.
+
+---
+
+## Quando usar
+
+* Útil como **backup rápido e temporário** antes de formatar ou trocar de máquina.
+* Bom para garantir que arquivos pessoais não sejam perdidos.
+* Deve ser armazenado em outro disco, pendrive ou HD externo.

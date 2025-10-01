@@ -1,1 +1,41 @@
+## O que é Storage?
 
+Storage é um **espaço centralizado para armazenar e organizar arquivos** em rede.
+Pode ser um **servidor dedicado, NAS ou até um PC configurado** para compartilhar pastas.
+Permite que vários usuários acessem os mesmos dados de forma segura.
+
+---
+
+## Configurar uma pasta no servidor e compartilhar
+
+1. No servidor, crie uma pasta (ex.: `D:\Backup` ou `D:\Compartilhado`).
+2. Clique com o botão direito → **Propriedades**.
+3. Vá em **Compartilhamento** → **Compartilhar…**.
+4. Escolha os usuários ou grupos que terão acesso.
+5. Defina as permissões:
+
+   * **Leitura** → só pode visualizar.
+   * **Leitura/Gravação** → pode salvar, editar e excluir.
+6. Acesse no cliente via:
+
+   ```
+   \\NOME_DO_SERVIDOR\NOME_DA_PASTA
+   ```
+
+---
+
+## Configurar servidor de arquivos para backup
+
+* Dedicar uma partição ou disco apenas para backups.
+* Criar pastas separadas por **usuário ou setor** (ex.: `\\Servidor\Backup\Financeiro`).
+* Definir permissões para garantir segurança dos dados.
+* Opcional: usar softwares de backup automático que enviam cópias diretamente para o servidor.
+
+---
+
+## Vantagens
+
+* Centralização dos arquivos.
+* Facilidade para organizar dados de vários usuários.
+* Backup em local único, com maior controle.
+* Pode ser integrado com **rotinas automáticas** (scripts ou softwares de backup).

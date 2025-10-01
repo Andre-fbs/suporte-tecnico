@@ -1,1 +1,42 @@
+## O que é particionamento?
 
+Particionar um disco é **dividir um HD/SSD em duas ou mais partes lógicas**.
+Exemplo:
+
+* Disco C: → Sistema e Programas
+* Disco D: → Arquivos e Backups
+
+Assim, mesmo que seja necessário formatar o Windows, os arquivos no **D:** permanecem salvos.
+
+---
+
+## Vantagens
+
+* Mantém **sistema separado dos arquivos pessoais**.
+* Facilita **formatações** sem perder documentos.
+* Pode criar uma partição dedicada só para **backups internos**.
+
+---
+
+## Como fazer no Windows (Gerenciamento de Disco)
+
+1. Pressione **Win + R** → digite `diskmgmt.msc` e pressione Enter.
+2. Escolha o disco que deseja particionar.
+3. Clique com o botão direito e selecione **Diminuir Volume**.
+4. Defina o tamanho a ser reduzido.
+5. Clique em **Novo Volume Simples** no espaço não alocado.
+6. Atribua uma letra (ex.: D: ou E:).
+7. Formate em **NTFS** e finalize.
+
+---
+
+## Boas práticas
+
+* Use a partição extra (D:, E:) apenas para **documentos, fotos, backups e projetos**.
+* Evite guardar **programas pesados** nela para não confundir com o sistema.
+* Mesmo com partição separada, **sempre mantenha cópia em mídia externa** (pendrive, HD externo ou nuvem).
+
+---
+
+⚠️ **Importante:** Se o HD/SSD der defeito físico, todas as partições serão afetadas.
+Por isso, particionamento é útil, mas **não substitui backup externo**.

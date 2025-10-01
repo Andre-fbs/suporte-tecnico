@@ -1,1 +1,25 @@
+## Quando usar
 
+Situações em que é preciso salvar arquivos rapidamente, sem configurar métodos completos de backup ou imagem de disco.
+Exemplo: cliente comprou um computador novo, mas precisa recuperar dados da máquina antiga.
+
+---
+
+## Como fazer
+
+1. Retire o HD da máquina antiga.
+2. Conecte o HD antigo junto com o HD da máquina atual (usando cabo SATA + alimentação ou adaptador USB para HD).
+3. O Windows irá reconhecer o segundo HD como uma nova unidade (exemplo: D:, E:, F:).
+4. Navegue até a pasta de usuários do HD antigo:
+
+   * Disco:\Usuários\NOME_DO_USUÁRIO
+5. Copie apenas o que for realmente necessário (Área de Trabalho, Documentos, Imagens, etc.) para o computador novo.
+
+---
+
+## Observações
+
+* Esse processo é considerado **backup temporário e emergencial**.
+* Pode deixar de fora programas instalados, configurações do sistema e licenças.
+* Recomenda-se copiar apenas os arquivos pessoais para agilizar.
+* Após garantir os dados importantes, configure um método de backup adequado (partição dedicada, HD externo ou nuvem).

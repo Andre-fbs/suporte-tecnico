@@ -1,1 +1,55 @@
+## 1. Verificar Memória Máxima
 
+* Vá em **Configurações → Sistema → Sobre** para ver a memória instalada e utilizável.
+* Pressione **Windows + R**, digite **msconfig** e pressione Enter.
+* Vá em **Inicialização do Sistema → Opções Avançadas**.
+* Confirme se a opção de memória máxima está ajustada corretamente.
+
+---
+
+## 2. Corrigir Erro de 100% de Disco
+
+Esse problema é comum em alguns computadores com HD mecânico.
+Passos para verificar e corrigir:
+
+* Abra o **Gerenciador de Tarefas (Ctrl + Shift + Esc)** e veja o uso de disco.
+* Verifique se não há atualização do Windows pendente.
+* Pressione **Windows + R**, digite **services.msc** e pressione Enter.
+* Desative serviços que costumam causar lentidão:
+
+  * Telefonia
+  * SysMain (Superfetch)
+  * Experiência do Usuário Conectado e Telemetria
+  * Xbox Accessory Management
+
+---
+
+## 3. Melhorar Inicialização
+
+* Abra o **Gerenciador de Tarefas → Inicializar**.
+* Desabilite programas que não são necessários na inicialização do sistema.
+  Isso acelera o tempo de boot do Windows.
+
+---
+
+## 4. Ajustar Ponto de Restauração
+
+* Vá em **Configurações Avançadas do Sistema → Proteção do Sistema**.
+* Desative a **Assistência Remota** se não for necessária.
+* Atenção: desabilitar isso impede acesso remoto via **Terminal Service**.
+
+---
+
+## 5. Utilizar Ferramentas do CMD
+
+* **chkdsk** → Faz a checagem de disco.
+* **sfc /scannow** → Verifica e corrige arquivos corrompidos do sistema.
+
+---
+
+## 6. Boas Práticas Extras
+
+* Manter drivers atualizados.
+* Evitar HD cheio (deixe pelo menos 20% de espaço livre).
+* Se possível, substituir o HD por **SSD** para ganho significativo de desempenho.
+* Fazer limpeza periódica com ferramentas como o **Limpeza de Disco** ou **Storage Sense**

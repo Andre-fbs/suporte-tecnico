@@ -1,1 +1,101 @@
+# Correio Eletrônico
 
+## Protocolos de E-mail
+
+### **POP3 (Post Office Protocol 3)**
+
+* Baixa os e-mails do servidor para o computador local.
+* Permite **acesso offline** às mensagens.
+* Ideal para uso em **backup de e-mails**.
+* Após o download, as mensagens podem ser **removidas do servidor**, dependendo da configuração.
+
+**Porta padrão (com SSL/TLS):** `995`
+**Servidor de entrada:** geralmente `pop.seuprovedor.com.br` ou `pop.gmail.com`
+
+---
+
+### **IMAP (Internet Message Access Protocol)**
+
+* Sincroniza os e-mails diretamente com o servidor remoto.
+* As mensagens ficam **armazenadas online**, permitindo acesso de **qualquer dispositivo** configurado com o mesmo e-mail.
+* Se o servidor atingir o **limite de espaço**, você **não conseguirá enviar ou receber** novos e-mails até liberar espaço.
+
+**Porta padrão (com SSL/TLS):** `993`
+**Servidor de entrada:** geralmente `imap.seuprovedor.com.br` ou `imap.gmail.com`
+
+---
+
+### **SMTP (Simple Mail Transfer Protocol)**
+
+* Responsável **somente pelo envio** de e-mails.
+* Sempre precisa de **autenticação** com usuário e senha para evitar bloqueios.
+
+**Porta padrão (com SSL/TLS):** `465`
+**Servidor de saída:** normalmente `smtp.seuprovedor.com.br` ou `smtp.gmail.com`
+
+---
+
+##  Diferença entre Servidor de Entrada e Saída
+
+* **Servidor de Entrada (POP3/IMAP):** usado para **receber e armazenar** mensagens.
+* **Servidor de Saída (SMTP):** usado para **enviar** mensagens para outros endereços.
+* Ambos exigem autenticação (usuário e senha) e, em alguns provedores, **ativação do acesso por aplicativos**.
+
+Exemplo de configurações comuns:
+
+| Provedor         | Entrada (IMAP/POP)                           | Saída (SMTP)          |
+| ---------------- | -------------------------------------------- | --------------------- |
+| Gmail            | imap.gmail.com / pop.gmail.com               | smtp.gmail.com        |
+| Outlook          | imap-mail.outlook.com / pop-mail.outlook.com | smtp-mail.outlook.com |
+| Yahoo            | imap.mail.yahoo.com / pop.mail.yahoo.com     | smtp.mail.yahoo.com   |
+| UOL, Terra, etc. | pop3.uol.com.br / imap.uol.com.br            | smtp.uol.com.br       |
+
+---
+
+##  Configuração de Conta de E-mail
+
+1. Vá em **Painel de Controle → Mail (Correio)**
+2. Clique em **Add Perfil (Adicionar Perfil)**
+3. Escolha o tipo de conta: **POP3** ou **IMAP**
+4. Insira:
+
+   * Nome e e-mail
+   * Servidor de entrada e saída
+   * Usuário (endereço de e-mail completo) e senha
+5. Configure as **portas** e **protocolos de segurança (SSL/TLS)**
+6. Clique em **Testar Configurações da Conta**
+7. Salve e finalize.
+
+💡**Dica:** para provedores como Gmail, é necessário **ativar o acesso a aplicativos menos seguros** ou gerar uma **senha de app** no painel da conta Google.
+
+---
+
+##  Criar Assinatura de E-mail
+
+### Método 1 (via Opções):
+
+1. Vá em **Arquivo → Opções → E-mail**
+2. Clique em **Assinaturas**
+3. Crie ou edite sua assinatura (nome, cargo, telefone, empresa, etc.)
+
+### Método 2 (via Novo E-mail):
+
+1. Abra um **Novo E-mail**
+2. Clique em **Assinatura → Nova**
+3. Edite e salve o modelo desejado.
+
+Para que a assinatura apareça automaticamente em **respostas ou encaminhamentos**, vá em **Assinaturas → Escolher assinaturas padrão** e marque as opções correspondentes.
+
+---
+
+##  Teste e Solução de Problemas
+
+* Se não conectar: verifique **porta**, **criptografia (SSL/TLS)** e **senha**.
+* Tente desabilitar antivírus ou firewall temporariamente para testar.
+* Verifique se o **servidor requer autenticação SMTP** (marque essa opção).
+* Confirme se o **relógio e data do sistema** estão corretos — diferenças podem causar erro no certificado SSL.
+
+---
+
+Para empresas, o ideal é usar um **servidor de e-mail dedicado (como Microsoft Exchange, Zimbra ou Google Workspace)**.
+Isso permite maior controle, segurança e backup automático das caixas de correio.
